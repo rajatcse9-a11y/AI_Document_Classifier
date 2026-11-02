@@ -1,0 +1,51 @@
+```gitignore
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Model training temporary files
+*.pkl.tmp
+*.joblib.tmp
+```
